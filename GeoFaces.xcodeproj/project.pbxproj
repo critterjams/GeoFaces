@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CE6AD71DB18D50004EECFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CE6AD61DB18D50004EECFA /* Assets.xcassets */; };
+		64CE6ADE1DB18D50004EECFA /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64CE6AE31DB18D50004EECFA /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE6AE21DB18D50004EECFA /* Messages.framework */; };
+		64CE6AE61DB18D50004EECFA /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */; };
+		64CE6AE91DB18D50004EECFA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CE6AE71DB18D50004EECFA /* MainInterface.storyboard */; };
+		64CE6AEB1DB18D50004EECFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CE6AEA1DB18D50004EECFA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64CE6ADF1DB18D50004EECFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CE6ACD1DB18D50004EECFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CE6ADC1DB18D50004EECFA;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64CE6AF21DB18D50004EECFA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64CE6ADE1DB18D50004EECFA /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64CE6AD31DB18D50004EECFA /* GeoFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE6AD61DB18D50004EECFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CE6AD81DB18D50004EECFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE6AE21DB18D50004EECFA /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		64CE6AE81DB18D50004EECFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		64CE6AEA1DB18D50004EECFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CE6AEC1DB18D50004EECFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CE6ADA1DB18D50004EECFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE6AE31DB18D50004EECFA /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CE6ACC1DB18D50004EECFA = {
+			isa = PBXGroup;
+			children = (
+				64CE6AD51DB18D50004EECFA /* GeoFaces */,
+				64CE6AE41DB18D50004EECFA /* MessagesExtension */,
+				64CE6AE11DB18D50004EECFA /* Frameworks */,
+				64CE6AD41DB18D50004EECFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CE6AD41DB18D50004EECFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CE6AD31DB18D50004EECFA /* GeoFaces.app */,
+				64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CE6AD51DB18D50004EECFA /* GeoFaces */ = {
+			isa = PBXGroup;
+			children = (
+				64CE6AD61DB18D50004EECFA /* Assets.xcassets */,
+				64CE6AD81DB18D50004EECFA /* Info.plist */,
+			);
+			path = GeoFaces;
+			sourceTree = "<group>";
+		};
+		64CE6AE11DB18D50004EECFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CE6AE21DB18D50004EECFA /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CE6AE41DB18D50004EECFA /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */,
+				64CE6AE71DB18D50004EECFA /* MainInterface.storyboard */,
+				64CE6AEA1DB18D50004EECFA /* Assets.xcassets */,
+				64CE6AEC1DB18D50004EECFA /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CE6AD21DB18D50004EECFA /* GeoFaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE6AF31DB18D50004EECFA /* Build configuration list for PBXNativeTarget "GeoFaces" */;
+			buildPhases = (
+				64CE6AD11DB18D50004EECFA /* Resources */,
+				64CE6AF21DB18D50004EECFA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CE6AE01DB18D50004EECFA /* PBXTargetDependency */,
+			);
+			name = GeoFaces;
+			productName = GeoFaces;
+			productReference = 64CE6AD31DB18D50004EECFA /* GeoFaces.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		64CE6ADC1DB18D50004EECFA /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE6AEF1DB18D50004EECFA /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				64CE6AD91DB18D50004EECFA /* Sources */,
+				64CE6ADA1DB18D50004EECFA /* Frameworks */,
+				64CE6ADB1DB18D50004EECFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CE6ACD1DB18D50004EECFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Elias Crouch";
+				TargetAttributes = {
+					64CE6AD21DB18D50004EECFA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					64CE6ADC1DB18D50004EECFA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 64CE6AD01DB18D50004EECFA /* Build configuration list for PBXProject "GeoFaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CE6ACC1DB18D50004EECFA;
+			productRefGroup = 64CE6AD41DB18D50004EECFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CE6AD21DB18D50004EECFA /* GeoFaces */,
+				64CE6ADC1DB18D50004EECFA /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CE6AD11DB18D50004EECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE6AD71DB18D50004EECFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CE6ADB1DB18D50004EECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE6AEB1DB18D50004EECFA /* Assets.xcassets in Resources */,
+				64CE6AE91DB18D50004EECFA /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CE6AD91DB18D50004EECFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE6AE61DB18D50004EECFA /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CE6AE01DB18D50004EECFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CE6ADC1DB18D50004EECFA /* MessagesExtension */;
+			targetProxy = 64CE6ADF1DB18D50004EECFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64CE6AE71DB18D50004EECFA /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE6AE81DB18D50004EECFA /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CE6AED1DB18D50004EECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64CE6AEE1DB18D50004EECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CE6AF01DB18D50004EECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grand-friendo.GeoFaces.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64CE6AF11DB18D50004EECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grand-friendo.GeoFaces.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		64CE6AF41DB18D50004EECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoFaces/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grand-friendo.GeoFaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CE6AF51DB18D50004EECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoFaces/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grand-friendo.GeoFaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CE6AD01DB18D50004EECFA /* Build configuration list for PBXProject "GeoFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE6AED1DB18D50004EECFA /* Debug */,
+				64CE6AEE1DB18D50004EECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CE6AEF1DB18D50004EECFA /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE6AF01DB18D50004EECFA /* Debug */,
+				64CE6AF11DB18D50004EECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64CE6AF31DB18D50004EECFA /* Build configuration list for PBXNativeTarget "GeoFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE6AF41DB18D50004EECFA /* Debug */,
+				64CE6AF51DB18D50004EECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CE6ACD1DB18D50004EECFA /* Project object */;
+}
