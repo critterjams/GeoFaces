@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4906951B1DB58432004663DA /* Circle-Magenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 490695151DB58432004663DA /* Circle-Magenta.png */; };
+		4906951C1DB58432004663DA /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 490695161DB58432004663DA /* Circle.png */; };
+		4906951D1DB58432004663DA /* Grid-Gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 490695171DB58432004663DA /* Grid-Gradient.png */; };
+		4906951E1DB58432004663DA /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = 490695181DB58432004663DA /* Square.png */; };
+		4906951F1DB58432004663DA /* Squiggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 490695191DB58432004663DA /* Squiggle.png */; };
+		490695201DB58432004663DA /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4906951A1DB58432004663DA /* Triangle.png */; };
 		64CE6ADE1DB18D50004EECFA /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		64CE6AE31DB18D50004EECFA /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE6AE21DB18D50004EECFA /* Messages.framework */; };
 		64CE6AE61DB18D50004EECFA /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */; };
@@ -39,6 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490695151DB58432004663DA /* Circle-Magenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-Magenta.png"; sourceTree = "<group>"; };
+		490695161DB58432004663DA /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		490695171DB58432004663DA /* Grid-Gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grid-Gradient.png"; sourceTree = "<group>"; };
+		490695181DB58432004663DA /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
+		490695191DB58432004663DA /* Squiggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squiggle.png; sourceTree = "<group>"; };
+		4906951A1DB58432004663DA /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
 		64CE6AD31DB18D50004EECFA /* GeoFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CE6AD61DB18D50004EECFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64CE6AD81DB18D50004EECFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490694FC1DB58255004663DA /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				490695151DB58432004663DA /* Circle-Magenta.png */,
+				490695161DB58432004663DA /* Circle.png */,
+				490695171DB58432004663DA /* Grid-Gradient.png */,
+				490695181DB58432004663DA /* Square.png */,
+				490695191DB58432004663DA /* Squiggle.png */,
+				4906951A1DB58432004663DA /* Triangle.png */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
 		64CE6ACC1DB18D50004EECFA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,7 @@
 		64CE6AE41DB18D50004EECFA /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				490694FC1DB58255004663DA /* Stickers */,
 				64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */,
 				64CE6AE71DB18D50004EECFA /* MainInterface.storyboard */,
 				64CE6AEA1DB18D50004EECFA /* Assets.xcassets */,
@@ -199,6 +225,12 @@
 			files = (
 				64CE6AEB1DB18D50004EECFA /* Assets.xcassets in Resources */,
 				64CE6AE91DB18D50004EECFA /* MainInterface.storyboard in Resources */,
+				4906951B1DB58432004663DA /* Circle-Magenta.png in Resources */,
+				4906951F1DB58432004663DA /* Squiggle.png in Resources */,
+				4906951D1DB58432004663DA /* Grid-Gradient.png in Resources */,
+				490695201DB58432004663DA /* Triangle.png in Resources */,
+				4906951E1DB58432004663DA /* Square.png in Resources */,
+				4906951C1DB58432004663DA /* Circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +429,7 @@
 				64CE6AF11DB18D50004EECFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64CE6AF31DB18D50004EECFA /* Build configuration list for PBXNativeTarget "GeoFaces" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +438,7 @@
 				64CE6AF51DB18D50004EECFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
