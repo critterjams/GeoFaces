@@ -9,11 +9,62 @@
 import UIKit
 import Messages
 
-class MessagesViewController: MSMessagesAppViewController {
+class MessagesViewController: MSMessagesAppViewController, MSStickerBrowserViewDataSource {
+    
+    var stickers = [MSSticker]()
+    
+//    func loadStickers() {
+//        if let url = Bundle.main.url(forResource: #imageLiteral(resourceName: "Circle-Magenta"), withExtension: "png") {
+//                do {
+//                    let sticker = try MSSticker(contentsOfFileURL: url, localizedDescription: "")
+//                    stickers.append(sticker)
+//                } catch {
+//                    print(error)
+//                }
+//        }
+//    }
+    
+    func loadStickers() {
+        for i in 1...2 {
+            if let url = Bundle.main.url(forResource: "Sticker-\(i)", withExtension: "png") {
+                do {
+                    let sticker = try MSSticker(contentsOfFileURL: url, localizedDescription: "")
+                    stickers.append(sticker)
+                } catch {
+                    print(error)
+                }
+            }
+        }
+    }
+    
+    func createStickerBrowser() {
+        let controller = MSStickerBrowserViewController(stickerSize: .large)
+        
+        addChildViewController(controller)
+        view.addSubview(controller.view)
+        
+        controller.stickerBrowserView.backgroundColor = UIColor.gray
+        controller.stickerBrowserView.dataSource = self
+        
+        view.topAnchor.constraint(equalTo: controller.view.topAnchor).isActive = true
+        view.bottomAnchor.constraint(equalTo: controller.view.bottomAnchor).isActive = true
+        view.leftAnchor.constraint(equalTo: controller.view.leftAnchor).isActive = true
+        view.rightAnchor.constraint(equalTo: controller.view.rightAnchor).isActive = true
+    }
+    
+    func numberOfStickers(in stickerBrowserView: MSStickerBrowserView) -> Int {
+        return stickers.count
+    }
+    
+    func stickerBrowserView(_ stickerBrowserView: MSStickerBrowserView, stickerAt index: Int) -> MSSticker {
+        return stickers[index]
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        loadStickers()
+        createStickerBrowser()
     }
     
     override func didReceiveMemoryWarning() {

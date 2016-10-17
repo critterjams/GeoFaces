@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64CE6AD71DB18D50004EECFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CE6AD61DB18D50004EECFA /* Assets.xcassets */; };
 		64CE6ADE1DB18D50004EECFA /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64CE6ADD1DB18D50004EECFA /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		64CE6AE31DB18D50004EECFA /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE6AE21DB18D50004EECFA /* Messages.framework */; };
 		64CE6AE61DB18D50004EECFA /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CE6AE51DB18D50004EECFA /* MessagesViewController.swift */; };
@@ -191,7 +190,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CE6AD71DB18D50004EECFA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
