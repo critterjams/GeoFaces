@@ -28,6 +28,10 @@
 		64E1EE971DB6984D00AA14E3 /* Stroke-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE8D1DB6984D00AA14E3 /* Stroke-circle.png */; };
 		64E1EE981DB6984D00AA14E3 /* Stroke-square.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE8E1DB6984D00AA14E3 /* Stroke-square.png */; };
 		64E1EE991DB6984D00AA14E3 /* Stroke-tri.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE8F1DB6984D00AA14E3 /* Stroke-tri.png */; };
+		64E1EE9C1DB69BE900AA14E3 /* circle-black-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE9A1DB69BE900AA14E3 /* circle-black-sm.png */; };
+		64E1EE9D1DB69BE900AA14E3 /* eye-open-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE9B1DB69BE900AA14E3 /* eye-open-sm.png */; };
+		64E1EEA01DB69C6D00AA14E3 /* circle-black-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE9E1DB69C6D00AA14E3 /* circle-black-lg.png */; };
+		64E1EEA11DB69C6D00AA14E3 /* eye-open-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E1EE9F1DB69C6D00AA14E3 /* eye-open-lg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,10 @@
 		64E1EE8D1DB6984D00AA14E3 /* Stroke-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke-circle.png"; sourceTree = "<group>"; };
 		64E1EE8E1DB6984D00AA14E3 /* Stroke-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke-square.png"; sourceTree = "<group>"; };
 		64E1EE8F1DB6984D00AA14E3 /* Stroke-tri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke-tri.png"; sourceTree = "<group>"; };
+		64E1EE9A1DB69BE900AA14E3 /* circle-black-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-black-sm.png"; sourceTree = "<group>"; };
+		64E1EE9B1DB69BE900AA14E3 /* eye-open-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye-open-sm.png"; sourceTree = "<group>"; };
+		64E1EE9E1DB69C6D00AA14E3 /* circle-black-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-black-lg.png"; sourceTree = "<group>"; };
+		64E1EE9F1DB69C6D00AA14E3 /* eye-open-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye-open-lg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,12 @@
 			children = (
 				64E1EE861DB6984D00AA14E3 /* Eye-1.png */,
 				64E1EE871DB6984D00AA14E3 /* Eye-2.png */,
+				64E1EE9A1DB69BE900AA14E3 /* circle-black-sm.png */,
+				64E1EE9B1DB69BE900AA14E3 /* eye-open-sm.png */,
 				64E1EE881DB6984D00AA14E3 /* Sad-1.png */,
 				64E1EE891DB6984D00AA14E3 /* Sad-2.png */,
+				64E1EE9E1DB69C6D00AA14E3 /* circle-black-lg.png */,
+				64E1EE9F1DB69C6D00AA14E3 /* eye-open-lg.png */,
 				64E1EE8A1DB6984D00AA14E3 /* Sad-3.png */,
 				64E1EE8B1DB6984D00AA14E3 /* Squiggle-1.png */,
 				64E1EE8C1DB6984D00AA14E3 /* Squiggle-2.png */,
@@ -260,15 +272,19 @@
 				64E1EE931DB6984D00AA14E3 /* Sad-2.png in Resources */,
 				64E1EE991DB6984D00AA14E3 /* Stroke-tri.png in Resources */,
 				4906951B1DB58432004663DA /* Circle-Magenta.png in Resources */,
+				64E1EE9C1DB69BE900AA14E3 /* circle-black-sm.png in Resources */,
 				64E1EE961DB6984D00AA14E3 /* Squiggle-2.png in Resources */,
 				4906951F1DB58432004663DA /* Squiggle-3.png in Resources */,
 				4906951D1DB58432004663DA /* Grid-Gradient.png in Resources */,
 				64E1EE901DB6984D00AA14E3 /* Eye-1.png in Resources */,
 				64E1EE951DB6984D00AA14E3 /* Squiggle-1.png in Resources */,
 				490695201DB58432004663DA /* Triangle.png in Resources */,
+				64E1EEA11DB69C6D00AA14E3 /* eye-open-lg.png in Resources */,
 				64E1EE971DB6984D00AA14E3 /* Stroke-circle.png in Resources */,
 				4906951E1DB58432004663DA /* Square.png in Resources */,
 				4906951C1DB58432004663DA /* Circle.png in Resources */,
+				64E1EEA01DB69C6D00AA14E3 /* circle-black-lg.png in Resources */,
+				64E1EE9D1DB69BE900AA14E3 /* eye-open-sm.png in Resources */,
 				64E1EE941DB6984D00AA14E3 /* Sad-3.png in Resources */,
 				64E1EE921DB6984D00AA14E3 /* Sad-1.png in Resources */,
 			);

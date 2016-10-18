@@ -31,6 +31,11 @@ class MessagesViewController: MSMessagesAppViewController, MSStickerBrowserViewD
         ["Stroke-circle", "Stroke Circle"],
         ["Stroke-square", "Stroke square"],
         ["Stroke-tri", "Stroke Triangle"],
+        ["eye-open-sm", "Eye Open small"],
+        ["eye-open-lg", "Eye Open large"],
+        ["circle-black-sm", "Black Circle small"],
+        ["circle-black-lg", "Black Circle large"]
+        
     ]
 
     func loadStickers() {
