@@ -18,8 +18,19 @@ class MessagesViewController: MSMessagesAppViewController, MSStickerBrowserViewD
         ["Circle", "Cyan Circle"],
         ["Grid-Gradient", "Grid Gradient"],
         ["Square", "Square"],
-        ["Squiggle", "Squiggle"],
-        ["Triangle", "Triangle"]
+        ["Triangle", "Triangle"],
+        ["Eye-1", "Eye 1"],
+        ["Eye-2", "Eye 2"],
+        ["Eye-3", "Eye 3"],
+        ["Sad-1", "Sad 1"],
+        ["Sad-2", "Sad 2"],
+        ["Sad-3", "Sad 3"],
+        ["Squiggle-1", "Squiggle 1"],
+        ["Squiggle-2", "Squiggle 2"],
+        ["Squiggle-3", "Squiggle 3"],
+        ["Stroke-circle", "Stroke Circle"],
+        ["Stroke-square", "Stroke square"],
+        ["Stroke-tri", "Stroke Triangle"],
     ]
 
     func loadStickers() {
